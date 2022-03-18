@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build generated files
+dist
+lib
+solution
+temp
+*.sppkg
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# OSX
+.DS_Store
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs
+.vscode
+bin
+obj
+
+# Resx Generated Code
+*.resx.ts
+
+# Styles Generated Code
+*.scss.ts
+
+packages/
+samples/react-teams-send-notification/MyNotes.md
+samples/react-teams-send-notification/teams/teams.zip
+samples/react-find-parker/release/component-dependency-audit/react-find-parker.json
+samples/react-find-parker/release/webpack-stats/react-find-parker.stats.json
+
+# Include distributable workflow actions
+!.github/actions/**/dist
+samples/react-enhanced-powerapps/lib/*
+samples/assets/sample.json
